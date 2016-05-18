@@ -18,6 +18,10 @@
 		58E81A191CBC376F001D3B82 /* ViewControllerKinematics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E81A181CBC376F001D3B82 /* ViewControllerKinematics.swift */; };
 		58F93ED71CE4F52200F038B2 /* ViewControllerEnergyConservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F93ED61CE4F52200F038B2 /* ViewControllerEnergyConservation.swift */; };
 		58F93ED91CE51B3A00F038B2 /* ViewControllerElastic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F93ED81CE51B3A00F038B2 /* ViewControllerElastic.swift */; };
+		58F93EDB1CECEF0500F038B2 /* RollerCoaster.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F93EDA1CECEF0500F038B2 /* RollerCoaster.png */; };
+		58F93EDD1CECF2D100F038B2 /* ElasticCollision.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F93EDC1CECF2D100F038B2 /* ElasticCollision.png */; };
+		58F93EDF1CECF59C00F038B2 /* ViewControllerInelastic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F93EDE1CECF59C00F038B2 /* ViewControllerInelastic.swift */; };
+		58F93EE11CECF7E700F038B2 /* InelasticCollision.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F93EE01CECF7E700F038B2 /* InelasticCollision.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		58E81A181CBC376F001D3B82 /* ViewControllerKinematics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerKinematics.swift; sourceTree = "<group>"; };
 		58F93ED61CE4F52200F038B2 /* ViewControllerEnergyConservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerEnergyConservation.swift; sourceTree = "<group>"; };
 		58F93ED81CE51B3A00F038B2 /* ViewControllerElastic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerElastic.swift; sourceTree = "<group>"; };
+		58F93EDA1CECEF0500F038B2 /* RollerCoaster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RollerCoaster.png; sourceTree = "<group>"; };
+		58F93EDC1CECF2D100F038B2 /* ElasticCollision.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ElasticCollision.png; sourceTree = "<group>"; };
+		58F93EDE1CECF59C00F038B2 /* ViewControllerInelastic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerInelastic.swift; sourceTree = "<group>"; };
+		58F93EE01CECF7E700F038B2 /* InelasticCollision.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InelasticCollision.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +78,15 @@
 				583DEEF91C9F5D9700CD7947 /* ViewController.swift */,
 				583DEEFB1C9F5D9700CD7947 /* Main.storyboard */,
 				58F93ED81CE51B3A00F038B2 /* ViewControllerElastic.swift */,
+				58F93EDE1CECF59C00F038B2 /* ViewControllerInelastic.swift */,
 				58E81A181CBC376F001D3B82 /* ViewControllerKinematics.swift */,
 				58F93ED61CE4F52200F038B2 /* ViewControllerEnergyConservation.swift */,
 				587E3F541CE1261B0039FF8C /* ViewControllerForce.swift */,
 				587E3F581CE3C5BB0039FF8C /* ViewControllerAtwood.swift */,
 				587E3F561CE3C1800039FF8C /* Screen Shot 2016-05-11 at 9.36.21 AM.png */,
+				58F93EDA1CECEF0500F038B2 /* RollerCoaster.png */,
+				58F93EDC1CECF2D100F038B2 /* ElasticCollision.png */,
+				58F93EE01CECF7E700F038B2 /* InelasticCollision.png */,
 				583DEEFE1C9F5D9700CD7947 /* Assets.xcassets */,
 				583DEF001C9F5D9700CD7947 /* LaunchScreen.storyboard */,
 				583DEF031C9F5D9700CD7947 /* Info.plist */,
@@ -141,6 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				583DEF021C9F5D9700CD7947 /* LaunchScreen.storyboard in Resources */,
+				58F93EDB1CECEF0500F038B2 /* RollerCoaster.png in Resources */,
+				58F93EDD1CECF2D100F038B2 /* ElasticCollision.png in Resources */,
+				58F93EE11CECF7E700F038B2 /* InelasticCollision.png in Resources */,
 				583DEEFF1C9F5D9700CD7947 /* Assets.xcassets in Resources */,
 				583DEEFD1C9F5D9700CD7947 /* Main.storyboard in Resources */,
 				587E3F571CE3C1800039FF8C /* Screen Shot 2016-05-11 at 9.36.21 AM.png in Resources */,
@@ -157,6 +172,7 @@
 				583DEEFA1C9F5D9700CD7947 /* ViewController.swift in Sources */,
 				58E81A191CBC376F001D3B82 /* ViewControllerKinematics.swift in Sources */,
 				587E3F591CE3C5BB0039FF8C /* ViewControllerAtwood.swift in Sources */,
+				58F93EDF1CECF59C00F038B2 /* ViewControllerInelastic.swift in Sources */,
 				587E3F551CE1261B0039FF8C /* ViewControllerForce.swift in Sources */,
 				583DEEF81C9F5D9700CD7947 /* AppDelegate.swift in Sources */,
 				58F93ED91CE51B3A00F038B2 /* ViewControllerElastic.swift in Sources */,

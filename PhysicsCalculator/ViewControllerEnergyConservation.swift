@@ -18,6 +18,8 @@ class ViewControllerEnergyConservation: UIViewController {
     @IBOutlet weak var solveButton: UIButton!
     @IBOutlet weak var responseField: UITextView!
     @IBOutlet weak var exampleButton: UIBarButtonItem!
+    @IBOutlet weak var rollerCoasterImage: UIImageView!
+    @IBOutlet weak var showDiagram: UIButton!
     var example: Bool = false
     
     @IBAction func solve(sender: AnyObject){
@@ -30,6 +32,11 @@ class ViewControllerEnergyConservation: UIViewController {
         responseField.text = ""
         responseField.text = calculateStuff()
         example = false
+    }
+    
+    @IBAction func showDiagramButtonPress(sender: AnyObject)
+    {
+        rollerCoasterImage.hidden = !rollerCoasterImage.hidden
     }
     
     func calculateStuff()->String
